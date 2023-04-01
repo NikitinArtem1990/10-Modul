@@ -1,0 +1,98 @@
+body {
+
+background-image: url(https://images.unsplash.com/photo-1629654858857-615c2c8be8a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1494&q=80);
+background-size: cover;
+}
+
+
+
+.container {
+height: 0px;
+margin-top: 300px;
+background-color: black;
+
+}
+
+.card-header {
+
+background-image: url(https://images.unsplash.com/photo-1629196914168-3a2652305f9f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=706&q=80);
+background-color: rgb(238, 158, 158);
+border-top: thick double coral;
+border-left: thick double coral;
+border-right: thick double coral;
+border-bottom: 3mm ridge coral;
+font-family: fantasy;
+font-size: x-large;
+font-style: italic;
+color: rgb(81, 12, 145);
+}
+
+.card-body {
+
+background-image: url(https://images.unsplash.com/photo-1629654857513-1136aef1b10f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1103&q=80);
+border-left: dashed rosybrown;
+border-bottom: dashed rosybrown;
+border-right: dashed rosybrown;
+}
+
+#firstNameOutput {
+
+font-family: fantasy;
+color: rgb(134, 82, 119);
+
+}
+
+#surnameOutput {
+
+    font-family: fantasy;
+color: rgb(134, 82, 119);
+}
+
+#thirdNameOutput {
+
+font-family: fantasy;
+color: rgb(134, 82, 119);
+
+}
+
+#workOutput {
+text-decoration-line: underline;
+
+}
+
+#btnActive {
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: larger;
+
+}
+
+#btnClear {
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: larger;
+
+
+}
+
+.btn-active {
+
+background-image: url(https://images.unsplash.com/photo-1629196914375-f7e48f477b6d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=706&q=80);
+color: rgb(48, 48, 110);
+}
+
+.btn-clear {
+
+background-image: url(https://images.unsplash.com/photo-1531169509526-f8f1fdaa4a67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+color: aliceblue;
+
+
+}
+
+.btn-group {
+
+border: thick double black;
+height: 70px;
+width: 500px;
+
+}
