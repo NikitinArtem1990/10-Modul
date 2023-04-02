@@ -27,12 +27,12 @@ const personGenerator = {
             "id_2": "Максим",
             "id_3": "Иван",
             "id_4": "Артем",
-            "id_5": "Дмитрий",
-            "id_6": "Никита",
+            "id_5": "Вадим",
+            "id_6": "Олег",
             "id_7": "Михаил",
             "id_8": "Даниил",
             "id_9": "Егор",
-            "id_10": "Андрей"
+            "id_10": "Кирилл"
         }
     }`,
 
@@ -49,38 +49,6 @@ const personGenerator = {
             "id_8": "Екатерина",
             "id_9": "Марина",
             "id_10": "Валерия"
-        }
-    }`,
-
-    thirdNameMaleJson: `{
-        "count": 10,
-        "list": {     
-            "id_1": "Александрович",
-            "id_2": "Петрович",
-            "id_3": "Иванович",
-            "id_4": "Сергеевич",
-            "id_5": "Алексеевич",
-            "id_6": "Ренатович",
-            "id_7": "Олегович",
-            "id_8": "Григорьевич",
-            "id_9": "Патапович",
-            "id_10": "Ильич"
-        }
-    }`,
-
-    thirdNameFemaleJson: `{
-        "count": 10,
-        "list": {     
-            "id_1": "Ивановна",
-            "id_2": "Сергеевна",
-            "id_3": "Алексеевна",
-            "id_4": "Ренатовна",
-            "id_5": "Игоревна",
-            "id_6": "Олеговна",
-            "id_7": "Викторовна",
-            "id_8": "Дмитриевна",
-            "id_9": "Васильевна",
-            "id_10": "Гавриловна"
         }
     }`,
 
@@ -193,13 +161,13 @@ const personGenerator = {
         if (this.person.gender === this.GENDER_FEMALE) {
 
 
-            return this.randomValue(this.thirdNameFemaleJson);
+            return this.randomValue(this.firstNameMaleJson) + 'овна';
         
         }
 
         else {
 
-            return this.randomValue(this.thirdNameMaleJson);
+            return this.randomValue(this.firstNameMaleJson) + 'ович';
         }
     },
 
@@ -293,4 +261,5 @@ const personGenerator = {
  
     
 };
+
 
